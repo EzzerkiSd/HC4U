@@ -1,0 +1,20 @@
+.slice{
+
+}
+.slice h2{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 15px;
+}
+.slice ul{
+    list-style-type: none;
+}
+.slice ul li{
+
+}
+.slice ul li a{
+    text-decoration: none;
+    color: rgb(126, 126, 126);
+    font-weight: 500;
+    line-height: 2.5em;
+}

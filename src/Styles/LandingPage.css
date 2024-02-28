@@ -1,0 +1,97 @@
+.landingPage{
+    position: relative;
+    background: linear-gradient(to right, #dfdfdf, #eeeeee);
+}
+.landingPage .container{
+    position: relative;
+    height: calc(100vh - 66px);
+    display: flex;
+    justify-content: space-between;
+}
+.landingPage .main{
+    padding-top: 10px;
+}
+.landingPage .main h3{
+    color: rgb(77, 75, 75);
+    font-size: 22px;
+}
+.landingPage .main h1{
+    padding-top: 20px;
+    width: 60%;
+    font-size: 40px;
+}
+.landingPage .main .description{
+    color: rgb(77, 75, 75);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.8em;
+    width: 59%;
+    padding-top:40px;
+}
+.landingPage .main .appointmentBooking{
+    color: white;
+    background-color: #1A8EFD;
+    padding: 10px 20px;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid #1A8EFD;
+    transition: .2s linear;
+    margin: 20px 0;
+}
+.landingPage .main .appointmentBooking svg{
+    margin-right: 5px;
+}
+.landingPage .main .appointmentBooking:hover{
+    background-color: transparent;
+    color: #1A8EFD;
+}
+.landingPage .main .stats{
+    display: flex;
+    flex-wrap: wrap;
+}
+.landingPage .main .stats h2{
+    color: #1A8EFD;
+    text-align: center;
+}
+.landingPage .main .stats p{
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 22px;
+    color: #333333;
+    text-align: center;
+}
+.landingPage .sectionImg{
+    
+}
+.landingPage .sectionImg img{
+    /* height: calc(100vh - 20px - 66px - 10px); */
+    height: 80%;
+}
+/* #####################   MEDIA-QUERY   #####################*/
+
+@media (max-width: 500px) {
+    .landingPage .container{
+        height: auto;
+    }
+    .landingPage .main h1{
+        width: auto;
+    }
+    .landingPage .main .description{
+        width: auto;
+    }
+}
+@media (max-width: 450px) {
+    .landingPage .main .stats{
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 451px) {
+    .landingPage .main .stats{
+        gap: 30px;
+    }
+}

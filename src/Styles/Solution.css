@@ -1,0 +1,23 @@
+.solution .header{
+    display: flex;
+    align-items: center;
+
+}
+.solution .header span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.solution .header span svg{
+    color: #8d204a;
+}
+.solution h3{
+    margin-left: 5px;
+}
+.solution .solution__description{
+    color: rgb(77, 75, 75);
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin-left: 23px;
+    padding: 7px 0;
+}

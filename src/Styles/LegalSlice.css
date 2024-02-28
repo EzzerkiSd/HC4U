@@ -1,0 +1,18 @@
+.legal__slice{
+
+}
+.legal__slice h2{
+    padding-bottom: 5px;
+    border-bottom: 1.5px solid rgb(238, 238, 238);
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+.legal__slice .content{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.4;
+    padding: 15px 0;
+    font-weight: 500;
+    color: rgb(44, 44, 44);
+    font-family: 'Rubik', sans-serif;
+}

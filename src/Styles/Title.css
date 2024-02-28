@@ -1,0 +1,15 @@
+.title{
+    position: relative;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.title:after{
+    position: absolute;
+    content: "";
+    width: 73%;
+    height: 3px;
+    background-color: #9D2553;
+    bottom: 0;
+    left: 0;
+}

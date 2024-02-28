@@ -1,0 +1,24 @@
+.infos .container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.infos .container .description{
+    color: rgb(77, 75, 75);
+    font-size: 18px;
+    width: 89%;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.8em;
+    padding-top:10px;
+}
+.infos .container .cards__container{
+    padding: 40px 0 10px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,121 @@
+.footer{
+    background-color: #1B2433;
+}
+.footer .container{
+    display: flex;
+    gap: 30px;
+}
+.first__section{
+    flex: .6;
+}
+.first__section .logo{
+    font-size: 28px;
+    font-weight: 600;
+}
+.first__section .logo a{
+    display: flex;
+    align-items: center;
+    color: rgb(0, 102, 255);
+    text-decoration: none;
+}
+.first__section .logo svg{
+    color: rgb(2, 255, 65);
+    margin-left: 5px;
+    margin-top: 2px;
+    font-size: 18px;
+}
+.first__section .footer__description{
+    color: rgb(128, 128, 128);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4em;
+    max-width: 69%;
+    margin-top: 18px;
+}
+.first__section h3{
+    color: white;
+    margin: 20px 0;
+    font-size: 22px;
+    font-family: 'Rubik', sans-serif;
+
+}
+.second__section{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.last__section{
+    border-top: 1px solid rgb(77, 75, 75);
+}
+.last__section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.last__section .container .copyright{
+    color: rgb(184, 184, 184);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.8em;
+}
+.last__section .container .platforms{
+
+}
+.platforms ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+.platforms ul li{
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+.platforms ul li a{
+    border: 1px solid #f1f1f1;
+    border-radius: 50%;
+    color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    transition: .1s ease-out;
+}
+.platforms ul li a:hover{
+    border: 1px solid transparent;
+}
+.linkedin:hover{
+    color: #0A66C2;
+}
+.facebook:hover{
+    color: #4267B2;
+}
+.twitter:hover{
+    color: #00ACEE;
+}
+
+/* ##############   MEDIA-QUERY   ##############*/
+
+@media (max-width: 752px) {
+    #first__one{
+        display: block;
+    }
+    .second__section{
+        margin-top: 28px;
+        gap: 30px;
+    }
+}
+@media (max-width: 550px) {
+    .copyright{
+        width: 100%;
+        text-align: center;
+    }
+    .platforms{
+        width: 100%;
+        display: grid;
+        place-items: center;
+    }
+}

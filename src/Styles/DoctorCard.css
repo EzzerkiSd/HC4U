@@ -1,0 +1,44 @@
+.doctor__card{
+    font-family: 'Rubik', sans-serif;
+}
+.doctor__card .img{
+    height: 200px;
+    width: 250px;
+    background: linear-gradient(to right, #c9c9c9, #dfdfdf);
+    position: relative;
+    border-radius: 20px;
+}
+.img img{
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+.doctor__card h3{
+    margin: 10px 0 3px;
+}
+.doctor__card span{
+    color: rgb(77, 75, 75);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+.doctor__card .infos__container{
+    margin-top: 4px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.doctor__card .infos__container svg{
+    color: gold;
+    margin-right: 5px;
+}
+.doctor__card .infos__container p{
+    color: rgb(59, 59, 59);
+    margin-left: 5px;
+}
+#plus{
+    padding-top: .5px;
+    color: rgb(59, 59, 59);
+    font-size: 12px;
+}

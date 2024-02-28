@@ -1,0 +1,42 @@
+.card{
+    max-width: 365px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(160, 160, 160);
+    position: relative;
+    padding: 15px 10px;
+    border-radius: 10px;
+    height: 255px;
+}
+.card .main__icon{
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #d3dae4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px;
+}
+.card .main__icon svg{
+    font-size: 22px;
+    color: rgb(0, 102, 255);
+}
+.card .card__title{
+    font-size: 25px;
+}
+.card .details{
+    color: rgb(77, 75, 75);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 20px;
+}
+@media (max-width: 400px) {
+    .card{
+        height: auto;
+    }
+}

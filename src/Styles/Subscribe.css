@@ -1,0 +1,38 @@
+.mailing{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.mailing input[type='email']{
+    outline: none;
+    width: 250px;
+    padding: 15px 20px;
+    color: white;
+    background-color: #293241;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    letter-spacing: .8px;
+}
+.mailing .subscribe{
+    margin-left: 4px;
+    background-color: #1A8EFD;
+    border: 1px solid #1A8EFD;
+    padding: 13px 20px;
+    font-size: 18px;
+    letter-spacing: .7px;
+    color: white;
+    border-radius: 30px;
+    transition: .2s ease-out;
+}
+.mailing .subscribe:hover{
+    color: #1A8EFD;
+    background-color: transparent;
+}
+
+@media (max-width: 430px) {
+    .mailing{
+        gap: 20px;
+    }
+}
